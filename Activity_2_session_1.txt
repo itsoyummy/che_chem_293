@@ -1,0 +1,21 @@
+What does the model achieve?
+- Derives a linear correlation between volume and weight
+
+How should metrics be interpreted?
+- Slope is the relationship between volume and Weight for the modelled data
+
+What are appropriate use cases?
+You can calculate the weight if given the volume, or vice versa using the correlation
+
+How is it implemented? *
+- If the volume of the object is measured, the weight can be calculated if it is unreasonable to weigh the object
+
+It is okay to recognize limits of your expertise
+
+It is NOT okay to misuse/misinterpret/misreport!
+
+What are caveats/biases/concerns to its usage?
+-There may be outliers that are not represented in the data and do not follow the correlation.  The small dataset does not represent this well
+
+How to interpret this specific result and advising action/next steps
+Volume and weight are correlated, which can be used to calculate the density of the object.
